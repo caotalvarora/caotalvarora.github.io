@@ -1,0 +1,5 @@
+---
+title: "Densidades"
+---
+
+Explicación de cómo crear un gráfico de densidades

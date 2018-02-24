@@ -2,4 +2,4 @@
 title: "Densidades"
 ---
 
-Explicación de cómo crear un gráfico de densidades
+Ejemplo de cómo crear un gráfico de densidades

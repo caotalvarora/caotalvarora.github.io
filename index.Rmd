@@ -2,4 +2,6 @@
 title: "Sobre mi"
 ---
 
-Esta es una pequeña biografía sobre mi. 
+Esta es una pequeña biografía sobre mi. Mi nombre es Catalina Otálvaro Ramirez, tengo 23 años; actualmente soy estudiante de pregrado del programa de estadística en la Universidad Nacional de Colombia, sede Medellín. 
+
+A parte de tener un gusto hacia las matemáticas me gusta hacer deporte, especialmente natación y ciclismo; en general, disfruto de las actividades al aire libre.  

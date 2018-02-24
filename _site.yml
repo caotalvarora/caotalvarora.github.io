@@ -9,3 +9,7 @@ navbar:
       href: about.html
     - text: "Densidades"
       href: densi.html
+output:
+  html_document:
+    theme: journal
+    highlight: zenburn

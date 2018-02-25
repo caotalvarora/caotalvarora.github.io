@@ -2,4 +2,12 @@
 title: "Trabajos"
 ---
 
-Una presentación de trabajos realizados por mi
+Una presentación de trabajos realizados por mi, enunciando cada uno de ellos.
+
+1. Para la clase de estadística Bayesiana: Elicitación del kilometraje anual, tanto para vehículos particulares como para aquellos que prestan el servicio de taxi. 
+
+\centerline{\includegraphics[height=2.5in]{primertrabajo.png}}
+
+2. Para la clase de series de tiempo: Análisis del comportamiento de las ventas de pieles de Lince vendidas por la compañía _Canadiense Hudson’s Bay_ desde el año 1857 hasta 1911. 
+
+3. Para la clase de simulación estadística: Comparación de métodos para contraste de medias vía simulación.

@@ -11,5 +11,6 @@ navbar:
       href: densi.html
 output:
   html_document:
-    theme: journal
+    code_folding: hide
+    theme: united
     highlight: zenburn

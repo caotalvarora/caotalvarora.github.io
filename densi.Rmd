@@ -2,7 +2,7 @@
 title: "Densidades"
 ---
 
-Ejemplo de cómo crear un gráfico de densidades. Para este ejemplo tomaré como variable la calificación obtenida po los estudiantes de cierto curso de la Universidad Nacional de Colombia; a continuación se presenta en código usado y la gráfica respectiva. 
+Ejemplo de cómo crear un gráfico de densidades. Para este ejemplo tomaré como variable la calificación obtenida por los estudiantes de cierto curso de la Universidad Nacional de Colombia; a continuación se presenta en código usado y la gráfica respectiva. 
 
 ```{r}
 r<-read.csv(file = "Libro1.csv") #Lectura de datos

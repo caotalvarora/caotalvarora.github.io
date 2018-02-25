@@ -22,6 +22,50 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #303030; color: #cccccc; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; }
+td.sourceCode { padding-left: 5px; }
+pre, code { color: #cccccc; background-color: #303030; }
+code > span.kw { color: #f0dfaf; } /* Keyword */
+code > span.dt { color: #dfdfbf; } /* DataType */
+code > span.dv { color: #dcdccc; } /* DecVal */
+code > span.bn { color: #dca3a3; } /* BaseN */
+code > span.fl { color: #c0bed1; } /* Float */
+code > span.ch { color: #dca3a3; } /* Char */
+code > span.st { color: #cc9393; } /* String */
+code > span.co { color: #7f9f7f; } /* Comment */
+code > span.ot { color: #efef8f; } /* Other */
+code > span.al { color: #ffcfaf; } /* Alert */
+code > span.fu { color: #efef8f; } /* Function */
+code > span.er { color: #c3bf9f; } /* Error */
+code > span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
+code > span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
+code > span.sc { color: #dca3a3; } /* SpecialChar */
+code > span.vs { color: #cc9393; } /* VerbatimString */
+code > span.ss { color: #cc9393; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { } /* Variable */
+code > span.cf { color: #f0dfaf; } /* ControlFlow */
+code > span.op { color: #f0efd0; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
+code > span.at { } /* Attribute */
+code > span.do { color: #7f9f7f; } /* Documentation */
+code > span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
+code > span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
+code > span.in { color: #7f9f7f; font-weight: bold; } /* Information */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 
 
 <style type="text/css">
@@ -156,7 +200,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Mi pÃ¡gina web</a>
+      <a class="navbar-brand" href="index.html">Mi pagina web</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -186,7 +230,11 @@ $(document).ready(function () {
 </div>
 
 
-<p>Ejemplo de cómo crear un gráfico de densidades</p>
+<p>Ejemplo de cómo crear un gráfico de densidades. Para este ejemplo tomaré como variable la calificación obtenida po los estudiantes de cierto curso de la Universidad Nacional de Colombia; a continuación se presenta en código usado y la gráfica respectiva.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">r&lt;-<span class="kw">read.csv</span>(<span class="dt">file =</span> <span class="st">&quot;Libro1.csv&quot;</span>) <span class="co">#Lectura de datos</span>
+d&lt;-<span class="kw">c</span>(r[,<span class="dv">1</span>])
+<span class="kw">hist</span>(d,<span class="dt">main=</span><span class="st">&quot;Histograma&quot;</span>,<span class="dt">xlab=</span><span class="st">&quot;Calificaciones&quot;</span>,<span class="dt">ylab=</span><span class="st">&quot;Frecuencias&quot;</span>,<span class="dt">col=</span>blues9) <span class="co">#Gráfico: histograma</span></code></pre></div>
+<p><img src="densi_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 
 
 
